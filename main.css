@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root {
+    --clr-green1: #039671;
+    --clr-green2: #2BAE7A;  
+    --clr-green3: #6C8B76;
+    --clr-green4: #8F9779;
+    --clr-gold: #D2B48C;
+    --clr-gray: #8F9779;
+    --clr-gray2: #767676;
+    --clr-black: #333333;
+    --clr-lightBlue: #A6C1D1;
+    --clr-veryLightBlue: #D6F7E7;
+    --clr-white: #ffff;
+    /* --transition: all 0.3s linear;
+    --spacing: 0.25rem;
+    --radius: 0.25rem;
+    --large-screen-width: 1170px;
+    --small-screen-width: 90vw;
+    --fixed-width: 50rem;  */
+  }
+@font-face {
+    font-family: 'DancingScript';
+    src: url('./Fonts/DancingScript/DancingScript/DancingScript.eot');
+    src: url('./Fonts/DancingScript/DancingScript/DancingScript.ttf');
+    src: url('./Fonts/DancingScript/DancingScript/DancingScript.woff');
+}
+@font-face {
+    font-family: 'openSans';
+    src: url('./Fonts/openSans/OpenSans-Regular.ttf'); 
+}
+@font-face {
+    font-family: 'playfairDisplay'; 
+    src: url('./Fonts/playfairDisplay/PlayfairDisplay-Regular.eot');   
+    src: url('./Fonts/playfairDisplay/PlayfairDisplay-Regular.ttf');
+    src: url('./Fonts/playfairDisplay/PlayfairDisplay-Regular.woff');
+}
+.green-btn, .green-btn2 {
+    background: var(--clr-green2);
+    color: white;
+    font-family: 'openSans';
+    border-radius: 8px;
+    border: none;
+    font-weight: bolder;
+}
+.green-btn{
+    font-size: 16px;
+    padding: 12px 60px;
+}
+.green-btn2{
+    font-size: 14px;
+    border-bottom: 3px solid var(--clr-black) !important;
+    padding: 8px 35px;
+}
+.padding-top{
+    padding-top: 100px;
+}
+.big-title, .small-title{
+    color: var(--clr-green2);
+    font-family: 'openSans';
+}
+.big-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.small-title{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'openSans';
+    line-height: 30px;
+}
+.paragraph{
+    font-size: 15px;
+    color: var(--clr-gray);
+    font-family: 'openSans';
+}
+.section-position{
+    position: relative;
+}
+.main-box{
+    border: 2px solid var(--clr-green2);
+    border-radius: 20px;
+    padding: 20px;
+    background: #ffff;
+}
+.footer-title{
+    color: var(--clr-white);
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'openSans';
+    line-height: 28px;
+}
+.footer-icon{
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+.cart-img{
+    
+    width: 75%;
+    height: 300px;
+}
+.discounted-price{
+    font-size: 24px;
+    color: var(--clr-black);
+    font-weight: bolder;
+    font-family: 'openSans';
+}
+.card{
+    height: 550px !important;
+}
